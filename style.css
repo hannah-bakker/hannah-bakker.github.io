@@ -50,17 +50,32 @@ main {
 }
 
 .social-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     margin-top: 10px;
 }
 
+.social-links p {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
 .social-links a {
+    display: flex;
+    align-items: center;
     color: #333;
     text-decoration: none;
-    margin: 0 5px;
+    margin: 5px 0;
+}
+
+.social-links a i {
+    margin-right: 8px;
+    color: #555; /* Adjust icon color if needed */
 }
 
 .social-links a:hover {
-    text-decoration: underline;
+    color: #0073e6;
 }
 
 .intro-text h1 {
