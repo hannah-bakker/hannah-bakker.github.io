@@ -11,23 +11,33 @@ body {
     background-color: #f8f8f8;
 }
 
+/* Header Styling */
 header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #333;
-    padding: 15px 0;
-    text-align: center;
+    padding: 10px 20px;
+    color: #fff;
 }
 
-header nav a {
+.header-left h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.header-right a {
     color: #fff;
     text-decoration: none;
-    margin: 0 15px;
+    margin-left: 15px;
     font-weight: bold;
 }
 
-header nav a:hover {
+.header-right a:hover {
     text-decoration: underline;
 }
 
+/* Main Content Styling */
 main {
     max-width: 900px;
     margin: 40px auto;
@@ -49,6 +59,7 @@ main {
     border: 2px solid #333;
 }
 
+/* Social Links Styling */
 .social-links {
     display: flex;
     flex-direction: column;
@@ -78,6 +89,7 @@ main {
     color: #0073e6;
 }
 
+/* Introduction Text Styling */
 .intro-text h1 {
     margin-bottom: 10px;
     font-size: 1.8em;
@@ -87,6 +99,7 @@ main {
     line-height: 1.6;
 }
 
+/* Footer Styling */
 footer {
     text-align: center;
     padding: 10px;
