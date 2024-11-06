@@ -37,6 +37,11 @@ header {
     text-decoration: underline;
 }
 
+.header-right a.active {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
 /* Main Content Styling */
 main {
     max-width: 900px;
