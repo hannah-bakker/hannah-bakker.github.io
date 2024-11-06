@@ -107,20 +107,26 @@ main {
 /* Increase space between categories */
 h3 {
     margin-top: 30px; /* Adds space above each category heading */
+    padding-left: 10px; /* Indent category headings slightly */
 }
 
 /* Style for the publication list */
 .publication-list {
     font-size: 0.9em; /* Smaller font size for publication entries */
-    padding-left: 10px; /* Reduced padding to allow more space */
-    max-width: 100%; /* Use full width for the list */
+    padding-left: 30px; /* Increased padding for indentation */
 }
 
 .publication-list li {
     margin-bottom: 10px; /* Space between each publication entry */
-    line-height: 1.4; /* Slightly reduce line height for compactness */
-    padding-left: 20px; /* Indentation for list items */
-    text-indent: -20px; /* Adjusted to align text better */
+    line-height: 1.4;
+    text-indent: -20px; /* Indent list items without affecting numbers */
+    padding-left: 20px; /* Ensure items align with numbers */
+}
+
+/* Adjusting ordered list numbering */
+.publication-list ol {
+    list-style-position: inside; /* Moves numbers inside the padding */
+    padding-left: 10px; /* Further indents numbers to align with entries */
 }
 
 /* Footer Styling */
