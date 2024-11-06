@@ -44,7 +44,7 @@ header {
 
 /* Main Content Styling */
 main {
-    max-width: 900px;
+    max-width: 1200px; /* Increased width for more space */
     margin: 40px auto;
     padding: 20px;
 }
@@ -112,18 +112,15 @@ h3 {
 /* Style for the publication list */
 .publication-list {
     font-size: 0.9em; /* Smaller font size for publication entries */
-    padding-left: 20px; /* Indent the list compared to headings */
+    padding-left: 10px; /* Reduced padding to allow more space */
+    max-width: 100%; /* Use full width for the list */
 }
 
 .publication-list li {
     margin-bottom: 10px; /* Space between each publication entry */
-    line-height: 1.6;
-}
-
-/* Add indentation for list items */
-.publication-list li {
-    text-indent: -20px;
-    padding-left: 20px;
+    line-height: 1.4; /* Slightly reduce line height for compactness */
+    padding-left: 20px; /* Indentation for list items */
+    text-indent: -20px; /* Adjusted to align text better */
 }
 
 /* Footer Styling */
