@@ -50,33 +50,24 @@ main {
 }
 
 
-/* Profile Links Styling */
-.profile-links {
-    margin: 1.5em 0;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1em;
-}
-
-.profile-links {
-    margin: 1.5em 0;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1.5em;
-}
-
 .profile-links a {
     font-weight: bold;
-    text-decoration: underline;
+    text-decoration: none;           /* Prevent underline on the entire link */
     color: inherit;
-    background: none;
-    border: none;
-    padding: 0;
-    margin: 0;
     font-size: 1em;
     display: inline-flex;
     align-items: center;
     gap: 0.4em;
+}
+
+/* Apply underline only to the text inside the link */
+.profile-links a span {
+    text-decoration: underline;
+}
+
+/* Optional hover effect */
+.profile-links a:hover {
+    color: #1a5276;
 }
 
 
