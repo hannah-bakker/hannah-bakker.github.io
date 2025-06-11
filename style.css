@@ -7,8 +7,10 @@
 
 body {
     font-family: Arial, sans-serif;
-    color: #333;
-    background-color: #f8f8f8;
+    color: #2c2c2c;
+    background-color: #f5f7fa;
+    font-size: 1.05em; /* Increased base font size */
+    line-height: 1.6;
 }
 
 /* Header Styling */
@@ -16,124 +18,102 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
-    padding: 10px 20px;
+    background-color: #2c3e50;
+    padding: 12px 24px;
     color: #fff;
 }
 
 .header-left h1 {
-    margin: 0;
-    font-size: 1.5em;
+    font-size: 1.6em;
 }
 
 .header-right a {
-    color: #fff;
+    color: #ecf0f1;
     text-decoration: none;
-    margin-left: 15px;
+    margin-left: 20px;
     font-weight: bold;
 }
 
-.header-right a:hover {
-    text-decoration: underline;
-}
-
+.header-right a:hover,
 .header-right a.active {
     text-decoration: underline;
-    font-weight: bold;
+    color: #1abc9c;
 }
 
 /* Main Content Styling */
 main {
-    max-width: 1200px; /* Increased width for more space */
-    margin: 40px auto;
-    padding: 20px;
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 0 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
 }
 
-.intro {
+/* Profile Links Styling */
+.profile-links {
+    margin: 1.5em 0;
     display: flex;
-    align-items: center;
-    gap: 20px;
+    flex-wrap: wrap;
+    gap: 1em;
 }
 
-.profile-image {
-    text-align: center;
-}
-
-.profile-image img {
-    border-radius: 50%;
-    border: 2px solid #333;
-}
-
-/* Social Links Styling */
-.social-links {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-top: 10px;
-}
-
-.social-links p {
-    margin-bottom: 5px;
-    font-weight: bold;
-}
-
-.social-links a {
-    display: flex;
-    align-items: center;
-    color: #333;
+.profile-links a {
     text-decoration: none;
-    margin: 5px 0;
+    color: #2c3e50;
+    background-color: #ecf0f1;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    padding: 6px 12px;
+    font-size: 0.95em;
+    display: flex;
+    align-items: center;
+    gap: 0.4em;
+    transition: all 0.2s ease-in-out;
 }
 
-.social-links a i {
-    margin-right: 8px;
-    color: #555; /* Adjust icon color if needed */
+.profile-links a:hover {
+    background-color: #d0eaf1;
+    border-color: #1abc9c;
+    color: #1abc9c;
 }
 
-.social-links a:hover {
-    color: #0073e6;
-}
-
-/* Introduction Text Styling */
-.intro-text h1 {
+/* Headings */
+h2, h3 {
+    color: #2c3e50;
+    margin-top: 30px;
     margin-bottom: 10px;
+}
+
+h2 {
     font-size: 1.8em;
+    border-bottom: 2px solid #1abc9c;
+    padding-bottom: 6px;
 }
 
-.intro-text p {
-    line-height: 1.6;
-}
-
-/* Increase space between categories */
 h3 {
-    margin-top: 30px; /* Adds space above each category heading */
-    padding-left: 10px; /* Indent category headings slightly */
+    font-size: 1.4em;
+    padding-left: 10px;
 }
 
-/* Style for the publication list */
+/* Publication List */
 .publication-list {
-    font-size: 0.9em; /* Smaller font size for publication entries */
-    padding-left: 30px; /* Increased padding for indentation */
+    padding-left: 30px;
+    font-size: 0.95em;
 }
 
 .publication-list li {
-    margin-bottom: 10px; /* Space between each publication entry */
-    line-height: 1.4;
-    text-indent: -20px; /* Indent list items without affecting numbers */
-    padding-left: 20px; /* Ensure items align with numbers */
+    margin-bottom: 14px;
+    text-indent: -20px;
+    padding-left: 20px;
+    line-height: 1.5;
 }
 
-/* Adjusting ordered list numbering */
-.publication-list ol {
-    list-style-position: inside; /* Moves numbers inside the padding */
-    padding-left: 10px; /* Further indents numbers to align with entries */
-}
-
-/* Footer Styling */
+/* Footer */
 footer {
     text-align: center;
-    padding: 10px;
-    margin-top: 40px;
+    padding: 20px;
+    margin-top: 50px;
     font-size: 0.9em;
-    color: #666;
+    color: #7f8c8d;
 }
