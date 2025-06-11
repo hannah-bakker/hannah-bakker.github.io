@@ -59,24 +59,23 @@ main {
 }
 
 .profile-links a {
-    text-decoration: none;
+    text-decoration: underline;
+    font-weight: bold;
     color: #2c3e50;
-    background-color: #ecf0f1;
-    border: 1px solid #bdc3c7;
-    border-radius: 5px;
-    padding: 6px 12px;
-    font-size: 0.95em;
+    background-color: transparent;
+    border: none;
+    padding: 4px 0;
+    font-size: 1em;
     display: flex;
     align-items: center;
     gap: 0.4em;
-    transition: all 0.2s ease-in-out;
 }
 
 .profile-links a:hover {
-    background-color: #d0eaf1;
-    border-color: #1abc9c;
-    color: #1abc9c;
+    color: #1a5276; /* Optional: darker tone for hover */
+    text-decoration: underline;
 }
+
 
 /* Headings */
 h2, h3 {
