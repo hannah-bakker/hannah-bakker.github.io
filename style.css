@@ -7,11 +7,12 @@
 
 body {
     font-family: Arial, sans-serif;
-    color: #2c2c2c;
-    background-color: #f5f7fa;
-    font-size: 1.05em; /* Increased base font size */
+    color: #2c2c2c; /* Dark gray text */
+    background-color: #ffffff; /* White background */
+    font-size: 1.05em;
     line-height: 1.6;
 }
+
 
 /* Header Styling */
 header {
@@ -45,10 +46,9 @@ main {
     max-width: 1000px;
     margin: 50px auto;
     padding: 0 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    /* Removed background, border, and shadow */
 }
+
 
 /* Profile Links Styling */
 .profile-links {
@@ -58,10 +58,17 @@ main {
     gap: 1em;
 }
 
+.profile-links {
+    margin: 1.5em 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5em;
+}
+
 .profile-links a {
     font-weight: bold;
     text-decoration: underline;
-    color: #2c3e50; /* Dark gray */
+    color: inherit;
     background: none;
     border: none;
     padding: 0;
@@ -72,10 +79,6 @@ main {
     gap: 0.4em;
 }
 
-.profile-links a:hover {
-    color: #1a5276; /* Slightly darker on hover */
-    text-decoration: underline;
-}
 
 
 /* Headings */
@@ -118,15 +121,13 @@ footer {
     color: #7f8c8d;
 }
 
-/* Global link style override */
 a {
-    color: inherit; /* Use same color as surrounding text */
+    color: inherit;           /* Same as surrounding text */
     font-weight: bold;
     text-decoration: underline;
 }
 
-/* Optional: subtle change on hover */
 a:hover {
-    color: #1a5276; /* Dark blue-gray tone for hover */
+    color: #1a5276;           /* Optional: darker on hover */
     text-decoration: underline;
 }
