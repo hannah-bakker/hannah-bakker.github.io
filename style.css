@@ -50,7 +50,7 @@ header {
 /* Site title (linked version) */
 .site-title {
     font-weight: bold;
-    font-size: 1.6em;
+    font-size: 1em;
     text-decoration: none;
     color: inherit;
 }
