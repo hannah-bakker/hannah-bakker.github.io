@@ -1,4 +1,6 @@
-/* Basic Reset */
+/* ========================================================
+   Global Reset and Base Layout
+   ======================================================== */
 * {
     margin: 0;
     padding: 0;
@@ -7,21 +9,22 @@
 
 body {
     font-family: Arial, sans-serif;
-    color: #2c2c2cd8; /* Dark gray text */
-
-    background-color: #ffffff; /* White background */
     font-size: 1.05em;
     line-height: 1.6;
+    color: #2c2c2cd8;             /* Dark gray text */
+    background-color: #ffffff;   /* White background */
 }
 
-/* Shared container for header and main */
 .container {
     max-width: 1000px;
     margin: 0 auto;
     padding: 0 20px;
 }
 
-/* Header Styling */
+
+/* ========================================================
+   Header Layout and Navigation
+   ======================================================== */
 header {
     background-color: #ffffff;
     color: #2c2c2cd8;
@@ -29,13 +32,7 @@ header {
     padding: 16px 24px;
 }
 
-.site-title {
-    font-weight: bold;
-    font-size: 1.6em;
-    text-decoration: none;
-    color: inherit;
-}
-
+/* Header inner flex container */
 .header-content {
     display: flex;
     align-items: baseline;
@@ -43,25 +40,29 @@ header {
     gap: 20px;
 }
 
-/* Hannah Bakker name */
+/* Name in header */
 .header-content h1 {
     font-size: 1em;
     font-weight: bold;
     margin: 0;
 }
 
-.header-content h1 a {
+/* Site title (linked version) */
+.site-title {
+    font-weight: bold;
+    font-size: 1.6em;
+    text-decoration: none;
     color: inherit;
-    text-decoration: none; /* <-- no underline */
 }
 
-/* Navigation links */
+/* Navigation container */
 .header-content nav {
     display: flex;
-    gap: 15px; /* spacing between nav items */
     align-items: center;
+    gap: 15px;
 }
 
+/* Nav links */
 .header-content nav a {
     color: inherit;
     text-decoration: none;
@@ -73,18 +74,74 @@ header {
     text-decoration: underline;
 }
 
-/* Main Content Styling */
-main {
-    max-width: 1000px;
-    margin: 50px auto;
-    padding: 0 20px;
-    /* Removed background, border, and shadow */
+
+/* ========================================================
+   Global Link Behavior
+   ======================================================== */
+/* Applies to all <a> tags across site */
+a {
+    color: inherit;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #1a5276;  /* Slightly darker on hover */
 }
 
 
+/* ========================================================
+   Home Page Layout (Index)
+   ======================================================== */
+/* Intro section: two-column layout */
+.intro {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+/* Left column: image + contact */
+.left-column {
+    flex: 0 0 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1em;
+}
+
+.left-column img {
+    border-radius: 4px;
+    width: 150px;
+    height: auto;
+}
+
+/* Contact/social info block */
+.contact-info {
+    font-size: 0.95em;
+    line-height: 1.5;
+}
+
+.contact-info a {
+    text-decoration: underline;
+    font-weight: bold;
+    color: inherit;
+}
+
+/* Right column: text */
+.right-column {
+    flex: 1;
+    min-width: 300px;
+}
+
+
+/* ========================================================
+   Profile Links (e.g., Google Scholar, ORCID)
+   ======================================================== */
 .profile-links a {
     font-weight: bold;
-    text-decoration: none;           /* Prevent underline on the entire link */
+    text-decoration: none;  /* Avoid underlining icon */
     color: inherit;
     font-size: 1em;
     display: inline-flex;
@@ -92,19 +149,26 @@ main {
     gap: 0.4em;
 }
 
-/* Apply underline only to the text inside the link */
+/* Underline only the label, not the icon */
 .profile-links a span {
     text-decoration: underline;
 }
 
-/* Optional hover effect */
 .profile-links a:hover {
     color: #1a5276;
 }
 
 
+/* ========================================================
+   Publications Page Layout
+   ======================================================== */
+main {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
 
-/* Headings */
+/* Section headings */
 h2, h3 {
     color: #2c3e50;
     margin-top: 30px;
@@ -122,7 +186,7 @@ h3 {
     padding-left: 10px;
 }
 
-/* Publication List */
+/* Publication list formatting */
 .publication-list {
     padding-left: 30px;
     font-size: 0.95em;
@@ -130,12 +194,15 @@ h3 {
 
 .publication-list li {
     margin-bottom: 14px;
-    text-indent: -20px;
+    text-indent: -20px; /* Hanging indent */
     padding-left: 20px;
     line-height: 1.5;
 }
 
-/* Footer */
+
+/* ========================================================
+   Footer Styling
+   ======================================================== */
 footer {
     text-align: center;
     padding: 20px;
@@ -144,54 +211,10 @@ footer {
     color: #7f8c8d;
 }
 
-a {
-    color: inherit;           /* Same as surrounding text */
-    font-weight: bold;
-    text-decoration: underline;
-}
 
-a:hover {
-    color: #1a5276;           /* Optional: darker on hover */
-    text-decoration: underline;
-}
-
-.intro {
-    display: flex;
-    gap: 40px;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    margin-top: 30px;
-}
-
-.left-column {
-    flex: 0 0 200px; /* fixed width column */
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1em;
-}
-
-.left-column img {
-    border-radius: 4px;
-    width: 150px;
-    height: auto;
-}
-
-.contact-info {
-    font-size: 0.95em;
-}
-
-.contact-info a {
-    text-decoration: underline;
-    font-weight: bold;
-    color: inherit;
-}
-
-.right-column {
-    flex: 1;
-    min-width: 300px;
-}
-
+/* ========================================================
+   Responsive Adjustments
+   ======================================================== */
 @media (max-width: 768px) {
     .intro {
         flex-direction: column;
