@@ -234,11 +234,11 @@ footer {
 }
 
 /* ========================================================
-   CV Section Styling
+   CV Section Styling (refined for clean look)
    ======================================================== */
 
 .cv-section {
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 
 .cv-section h2 {
@@ -250,11 +250,29 @@ footer {
 }
 
 .cv-list {
-    list-style: none;
-    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* spacing between entries */
 }
 
-.cv-list li {
-    margin-bottom: 20px;
-    line-height: 1.6;
+.cv-entry {
+    display: flex;
+    flex-direction: column;
+}
+
+.cv-title {
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+.cv-description {
+    padding-left: 10px;
+    margin-bottom: 4px;
+    font-size: 0.95em;
+}
+
+.cv-meta {
+    font-size: 0.85em;
+    color: #555;
+    padding-left: 10px;
 }
