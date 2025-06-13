@@ -253,6 +253,7 @@ footer {
 .cv-entry {
     display: flex;
     flex-direction: column;
+    padding-left: 10px;
 }
 
 .cv-title {
@@ -261,7 +262,7 @@ footer {
 }
 
 .cv-description {
-    padding-left: 10px;
+    padding-left: 20px;
     margin-bottom: 4px;
     font-size: 0.95em;
 }
@@ -269,5 +270,5 @@ footer {
 .cv-meta {
     font-size: 0.85em;
     color: #555;
-    padding-left: 10px;
+    padding-left: 20px;
 }
