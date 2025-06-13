@@ -248,7 +248,7 @@ footer {
 .cv-list {
     display: flex;
     flex-direction: column;
-    gap: 20px; /* spacing between entries */
+    gap: 15px; /* spacing between entries */
 }
 
 .cv-entry {
