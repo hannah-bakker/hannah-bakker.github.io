@@ -232,3 +232,29 @@ footer {
         text-align: center;
     }
 }
+
+/* ========================================================
+   CV Section Styling
+   ======================================================== */
+
+.cv-section {
+    margin-bottom: 40px;
+}
+
+.cv-section h2 {
+    font-size: 1.6em;
+    margin-bottom: 15px;
+    color: #2c3e50;
+    border-bottom: 2px solid #1abc9c;
+    padding-bottom: 4px;
+}
+
+.cv-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.cv-list li {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
