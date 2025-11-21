@@ -297,6 +297,11 @@ footer {
 /* ========================================================
    CV Section Styling (refined for clean look)
    ======================================================== */
+.page-section .cv-entry p {
+    margin-bottom: 4px;
+    text-align: left;
+    font-size: 0.95rem;
+}
 .cv-entry {
     display: flex;
     flex-direction: column;
