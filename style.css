@@ -335,3 +335,7 @@ footer {
     margin-bottom: 15px;
     font-size: 1.05rem;
 }
+.teaching-section em {
+    font-size: 0.95rem;
+    color: #555;
+}
