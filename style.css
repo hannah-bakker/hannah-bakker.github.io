@@ -324,6 +324,7 @@ footer {
     color: #555;
     display: block;
     padding-left: 10px;
+    margin-top: 0;          /* <-- this removes the big gap */
     margin-bottom: 2px;
     line-height: 1.4;
 }
