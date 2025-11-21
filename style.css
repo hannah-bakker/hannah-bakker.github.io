@@ -319,9 +319,11 @@ footer {
     margin-top: 10px;
 }
 .cv-subtitle {
-    margin-left: 0;       /* aligns with the h4 title */
-    margin-top: -10px;    /* pulls it closer to h4 (optional) */
+    margin-top: -8px;     /* optional: pulls it closer to the h4 */
+    margin-bottom: 8px;   /* reduce large gap */
+    padding-left: 0;
     font-size: 0.95rem;
+    color: #555;
 }
 
 .cv-description {
