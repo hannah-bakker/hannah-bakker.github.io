@@ -341,6 +341,18 @@ footer {
     line-height: 1.4;
 }
 
+.cv-list-bullets {
+    padding-left: 30px;       /* indent the list */
+    margin-top: 0;            /* tight spacing to previous line */
+    margin-bottom: 10px;      /* optional */
+    font-size: 0.90em;        /* slightly smaller than body text */
+    color: #555;              /* same as cv-meta */
+    line-height: 1.5;
+}
+
+.cv-list-bullets li {
+    margin-bottom: 4px;
+}
 /* ========================================================
    Teaching Section Styling (refined for clean look)
    ======================================================== */
