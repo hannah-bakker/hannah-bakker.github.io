@@ -169,7 +169,7 @@ main {
     padding: 0 20px;
 }
 
-.site-intro {
+.page-intro {
     margin-bottom: 40px;
 }
 
@@ -251,7 +251,16 @@ h4 {
     line-height: 1.5;
 }
 
-
+.page-section p {
+    line-height: 1.6;
+    margin-bottom: 50px;
+    font-size: 1.05rem;
+    text-align: justify;
+}
+.page-section em {
+    font-size: 0.95rem;
+    color: #555;
+}
 /* ========================================================
    Footer Styling
    ======================================================== */
@@ -288,22 +297,15 @@ footer {
 /* ========================================================
    CV Section Styling (refined for clean look)
    ======================================================== */
-
-.cv-section {
-    margin-bottom: 50px;
-}
-
-
-.cv-list {
-    display: flex;
-    flex-direction: column;
-    gap: 15px; /* spacing between entries */
-}
-
 .cv-entry {
     display: flex;
     flex-direction: column;
     padding-left: 0px;
+}
+.cv-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* spacing between entries */
 }
 
 .cv-title {
@@ -345,22 +347,8 @@ footer {
 .teaching-nav a:hover {
     text-decoration: underline;
 }
-.teaching-section {
-    margin-top: 40px;
-    margin-bottom: 40px;
-    max-width: 1300px;
-}
 
-.teaching-section p {
-    line-height: 1.6;
-    margin-bottom: 15px;
-    font-size: 1.05rem;
-    text-align: justify;
-}
-.teaching-section em {
-    font-size: 0.95rem;
-    color: #555;
-}
+
 
 teaching-example {
     margin-bottom: 20px;
