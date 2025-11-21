@@ -211,23 +211,22 @@ main {
     text-decoration: none; /* simple hover effect */
 }
 
-/* Section headings */
-h2, h3 {
-    color: #0c154bd8;
-    margin-top: 30px;
-    margin-bottom: 10px;
-}
-
+/* Page headings */
 h2 {
     font-size: 1.8em;
+    color: #0c154bd8;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+/* Section headings */
+h3 {
+    font-size: 1.4em;
     color: #0c154bd8;
     margin-top: 30px;
     margin-bottom: 20px;
 }
 
-h3 {
-    font-size: 1.4em;
-}
 
 /* Publication list formatting */
 .publication-list {
