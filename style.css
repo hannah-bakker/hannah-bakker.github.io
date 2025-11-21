@@ -16,7 +16,7 @@ body {
 }
 
 .container {
-    max-width: 1500px;
+    max-width: 1300px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -196,12 +196,11 @@ main {
     display: flex;
     gap: 50px;             /* spacing between links */
     flex-wrap: wrap;       /* nice collapse on mobile */
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 /* Styling of links */
 .page-nav a {
-    font-weight: 600;      /* bold */
     text-decoration: underline;
     color: inherit;        /* uses normal text color instead of blue */
     cursor: pointer;
@@ -209,6 +208,7 @@ main {
 
 .page-nav a:hover {
     text-decoration: none; /* simple hover effect */
+    color: #064230d8;
 }
 
 /* Page headings */
@@ -352,7 +352,7 @@ footer {
 .teaching-section {
     margin-top: 40px;
     margin-bottom: 40px;
-    max-width: 900px;
+    max-width: 1300px;
 }
 
 .teaching-section h3 {
