@@ -321,7 +321,6 @@ footer {
 .cv-subtitle {
     margin-left: 0;       /* aligns with the h4 title */
     margin-top: -10px;    /* pulls it closer to h4 (optional) */
-    margin-bottom: 10px;
     font-size: 0.95rem;
 }
 
