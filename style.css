@@ -339,3 +339,25 @@ footer {
     font-size: 0.95rem;
     color: #555;
 }
+
+.teaching-example {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: #f7f7f7;
+}
+
+.teaching-example h4 {
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.teaching-example a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #0066cc;
+}
+
+.teaching-example a:hover {
+    text-decoration: underline;
+}
