@@ -49,8 +49,9 @@ header {
 
 /* Site title (linked version) */
 .site-title {
-    font-weight: bold;
-    font-size: 1em;
+    font-size: 2.2rem;     /* Larger heading */
+    margin-bottom: 10px;
+    font-weight: 600;
     text-decoration: none;
     color: inherit;
 }
