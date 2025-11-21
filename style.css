@@ -163,7 +163,7 @@ a:hover {
    Page Layout
    ======================================================== */
 main {
-    max-width: 1000px;
+    max-width: 1500px;
     margin: 50px auto;
     padding: 0 20px;
 }
@@ -173,7 +173,7 @@ main {
 }
 
 .site-title {
-    font-size: 1.0 rem;     /* Larger heading */
+    font-size: 1.0rem;     /* Larger heading */
     margin-bottom: 10px;
     font-weight: bold;
 }
@@ -184,7 +184,7 @@ main {
     font-weight: 600;
 }
 
-.site-header-text {
+.page-header-text {
     max-width: 800px;
     font-size: 1.1rem;
     line-height: 1.6;
@@ -192,7 +192,7 @@ main {
 }
 
 /* Horizontal navigation */
-.site-nav {
+.page-nav {
     display: flex;
     gap: 50px;             /* spacing between links */
     flex-wrap: wrap;       /* nice collapse on mobile */
@@ -200,14 +200,14 @@ main {
 }
 
 /* Styling of links */
-.site-nav a {
+.page-nav a {
     font-weight: 600;      /* bold */
     text-decoration: underline;
     color: inherit;        /* uses normal text color instead of blue */
     cursor: pointer;
 }
 
-.site-nav a:hover {
+.page-nav a:hover {
     text-decoration: none; /* simple hover effect */
 }
 
