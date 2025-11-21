@@ -272,3 +272,50 @@ footer {
     color: #555;
     padding-left: 10px;
 }
+
+/* ========================================================
+   Teaching Section Styling (refined for clean look)
+   ======================================================== */
+
+
+.teaching-intro {
+    margin-bottom: 40px;
+}
+
+.teaching-header-text {
+    font-size: 1.05rem;
+    line-height: 1.6;
+    max-width: 800px;
+}
+
+.teaching-nav {
+    margin-top: 25px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    max-width: 600px;
+}
+
+.teaching-nav h3 {
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+
+.teaching-nav ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 10px 0 0 0;
+}
+
+.teaching-nav li {
+    margin-bottom: 8px;
+}
+
+.teaching-nav a {
+    text-decoration: none;
+    color: #0066cc;
+}
+
+.teaching-nav a:hover {
+    text-decoration: underline;
+}
