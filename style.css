@@ -49,9 +49,8 @@ header {
 
 /* Site title (linked version) */
 .site-title {
-    font-size: 2.2rem;     /* Larger heading */
-    margin-bottom: 10px;
-    font-weight: 600;
+    font-weight: bold;
+    font-size: 1em;
     text-decoration: none;
     color: inherit;
 }
@@ -167,6 +166,42 @@ main {
     max-width: 1000px;
     margin: 50px auto;
     padding: 0 20px;
+}
+
+.site-intro {
+    margin-bottom: 40px;
+}
+
+.site-title {
+    font-size: 2.2rem;     /* Larger heading */
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.site-header-text {
+    max-width: 800px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Horizontal navigation */
+.site-nav {
+    display: flex;
+    gap: 25px;             /* spacing between links */
+    flex-wrap: wrap;       /* nice collapse on mobile */
+    margin-top: 10px;
+}
+/* Styling of links */
+.site-nav a {
+    font-weight: 600;      /* bold */
+    text-decoration: underline;
+    color: inherit;        /* uses normal text color instead of blue */
+    cursor: pointer;
+}
+
+.site-nav a:hover {
+    text-decoration: none; /* simple hover effect */
 }
 
 /* Section headings */
