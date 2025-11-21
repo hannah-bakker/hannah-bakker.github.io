@@ -319,7 +319,7 @@ footer {
     margin-top: 10px;
 }
 .cv-subtitle {
-    margin-top: -8px;     /* optional: pulls it closer to the h4 */
+    margin-top: -18px;     /* optional: pulls it closer to the h4 */
     margin-bottom: 8px;   /* reduce large gap */
     padding-left: 0;
     font-size: 0.95rem;
