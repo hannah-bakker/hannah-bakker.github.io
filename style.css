@@ -322,9 +322,10 @@ footer {
 .cv-meta {
     font-size: 0.85em;
     color: #555;
-    padding-left: 10px;
     display: block;
-    margin-bottom: 2px;  /* small consistent line spacing */
+    padding-left: 10px;
+    margin-bottom: 2px;
+    line-height: 1.4;
 }
 
 /* ========================================================
