@@ -163,7 +163,7 @@ a:hover {
    Page Layout
    ======================================================== */
 main {
-    max-width: 1500px;
+    max-width: 1300px;
     margin: 50px auto;
     padding: 0 20px;
 }
@@ -185,7 +185,7 @@ main {
 }
 
 .page-header-text {
-    max-width: 800px;
+    max-width: 1300px;
     font-size: 1.1rem;
     line-height: 1.6;
     margin-bottom: 20px;
@@ -325,19 +325,6 @@ footer {
     margin-bottom: 40px;
 }
 
-.teaching-header-text {
-    font-size: 1.05rem;
-    line-height: 1.6;
-    max-width: 800px;
-}
-
-.teaching-nav {
-    margin-top: 25px;
-    padding: 20px;
-    background-color: #f7f7f7;
-    border-radius: 8px;
-    max-width: 600px;
-}
 
 .teaching-nav h3 {
     margin-top: 0;
